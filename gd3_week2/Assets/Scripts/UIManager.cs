@@ -5,12 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    public int scene;
-
-
 
     public void sceneChange(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
+       
     }
 }
